@@ -12,7 +12,7 @@ const ProductItem = (props) => {
       cartActions.addItemToCart({
         id,
         price,
-        name: title,
+        title,
       })
     );
   };
